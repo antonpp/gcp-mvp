@@ -4,9 +4,10 @@
 
 1. Navigate to [console.cloud.google.com](https://console.cloud.google.com) and create an account.
 2. Select a project or click **NEW PROJECT** to create `my-mvp` project.
-3. Head to **cloud workstations**.
+3. Head to **cloud workstations(*)**.
    - Enable the API.
    - Navigate to **clusters** > create cluster and select `europe-west1`. Note: This process takes approximately 15 minutes.
+(*)Cloud Workstations are a convenient way to start developing. With this service you get an instance with pre-installed and pre-configured VS Code and other tools like gcloud. You can ofcourse still use your laptop, but in that case you'll need to [install gcloud yourself](https://cloud.google.com/sdk/docs/install). If you do feel free to skip this section.
 
 ### 2. Setting up GitHub
 
@@ -15,8 +16,6 @@
 3. Take a break! Maybe grab a coffee for 12 minutes (that's the time it generally takes for the cluster to be created).
 
 ### 3. Setting up Cloud Workstations
-
-Cloud Workstations are a convenient way to start developing. With this service you get an instance with pre-installed and pre-configured VS Code and other tools like gcloud. You can ofcourse still use your laptop, but in that case you'll need to [install gcloud yourself](https://cloud.google.com/sdk/docs/install). If you do feel free to skip this section.
 
 1. Return to **cloud workstations**.
 2. Navigate to **Configurations** > create configuration > configure & create.
