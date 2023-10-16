@@ -29,6 +29,8 @@
 
 ### 5. Deploying a Python Service to Cloud Run
 
+We will now follow the steps from the [Deploy a Python service to Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service) tutorial. See [here](https://cloud.google.com/run/docs/quickstarts) for other languages. For lanchain apps with Google Cloud see [here](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain).
+
 1. Within the workstation, open a new terminal and enter:
    ```bash
    gcloud init
@@ -38,7 +40,7 @@
    ```bash
    gcloud config set project PROJECT_ID
    ```
-3. Create the files `main.py`, `requirements.txt`, `Dockerfile`, and `.dockerignore` as instructed in the tutorial.
+3. Create the files `main.py`, `requirements.txt`, `Dockerfile`, and `.dockerignore` as instructed in the [tutorial](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service).
 4. Deploy to Cloud Run with:
    ```bash
    gcloud run deploy
