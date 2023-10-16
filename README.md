@@ -29,7 +29,7 @@
 
 ### 5. Deploying a Python Service to Cloud Run
 
-We will now follow the steps from the [Deploy a Python service to Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service) tutorial. See [here](https://cloud.google.com/run/docs/quickstarts) for other languages. For lanchain apps with Google Cloud see [here](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain).
+We will now follow the steps from the [Deploy a Python service to Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service) tutorial. See [here](https://cloud.google.com/run/docs/quickstarts) for other languages. If you'd like to deploy a LLM langchain app on Google Cloud see [here](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/language/orchestration/langchain).
 
 1. Within the workstation, open a new terminal and enter:
    ```bash
