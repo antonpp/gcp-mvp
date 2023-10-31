@@ -8,7 +8,7 @@
    - Enable the API.
    - Navigate to **clusters** > create cluster and select `europe-west1`. Note: This process takes approximately 15 minutes.
 
-(*)Cloud Workstations are a convenient way to start developing. With this service you get an instance with pre-installed and pre-configured VS Code and other tools like gcloud. You can ofcourse still use your laptop, but in that case you'll need to [install gcloud yourself](https://cloud.google.com/sdk/docs/install). If you do feel free to skip this section.
+(*)Cloud Workstations are a way to start developing. With this service you get an instance with pre-installed and pre-configured VS Code and other tools like gcloud. Another convenient option is to use [Cloud Shell](https://cloud.google.com/shell), just make sure to commit your work to Github when you're done. Or you can ofcourse still use your laptop too, but in that case you'll need to [install gcloud yourself](https://cloud.google.com/sdk/docs/install). If you do feel free to skip this section.
 
 ### 2. Setting up GitHub
 
